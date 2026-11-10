@@ -1,1 +1,855 @@
-{}
+{
+  "B.Tech-IVth Year-7th Sem Project report submission.txt": {
+    "category": "exam",
+    "notice_date": "2026-10-01",
+    "deadline_dates": [
+      "2026-11-16"
+    ],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [
+      "B.Tech 7th semester, Mechanical Engineering"
+    ],
+    "required_documents": [
+      "final project report",
+      "abstract signed by project guide"
+    ],
+    "action_items": [
+      "Submit final B.Tech project report (one copy to guide, abstract to MED office)"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Notice date OCR'd as 01/1o/2026; read as 01/10/2026.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "B.Tech_M_Sc_I Year.txt": {
+    "category": "exam",
+    "notice_date": null,
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "academic_calendar",
+    "extraction_eval": false,
+    "status": "draft_unverified",
+    "notes": "Calendar table; only category evaluated.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "CIRCULAR- INSTITUTE CLOSURE NOTICE.txt": {
+    "category": "general",
+    "notice_date": "2026-07-31",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-07-31"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "closure",
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Class Committee UG and PG_260902_153252.txt": {
+    "category": "general",
+    "notice_date": "2026-09-02",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": null,
+    "extraction_eval": false,
+    "status": "draft_unverified",
+    "notes": "Committee member list; no deadlines/fees.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "DOC290626-29062026200051.txt": {
+    "category": "exam",
+    "notice_date": "2026-06-25",
+    "deadline_dates": [
+      "2026-06-30"
+    ],
+    "event_dates": [],
+    "fees": [
+      500
+    ],
+    "eligibility": [
+      "students eligible to appear in July 2026 supplementary examination"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Register for supplementary examination through MIS portal",
+      "Pay fee of Rs. 500 per semester at registration"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Eligible Branches (1).txt": {
+    "category": "general",
+    "notice_date": null,
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [
+      "CGPA >= 6.0 at end of 6th sem (partner NIT students from 2027-28 onwards)",
+      "CGPA >= 7.5 at end of 6th sem (current B.Tech batches 2023-24 to 2026-27)"
+    ],
+    "required_documents": [],
+    "action_items": [],
+    "group": "dual_degree",
+    "extraction_eval": false,
+    "status": "draft_unverified",
+    "notes": "Attachment to the dual-degree mail; branch table not evaluated.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "End Sem Examination Timetable -ODD sem -2026_261107_141736.txt": {
+    "category": "exam",
+    "notice_date": "2026-11-06",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-27",
+      "2026-11-30",
+      "2026-12-02",
+      "2026-12-04"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Fee Remission Notice.txt": {
+    "category": "general",
+    "notice_date": "2026-09-28",
+    "deadline_dates": [
+      "2026-10-16",
+      "2026-10-19"
+    ],
+    "event_dates": [],
+    "fees": [
+      50
+    ],
+    "eligibility": [
+      "B.Tech 1st year admitted 2026-27",
+      "General/General-EWS/OBC-NCL category",
+      "family income < Rs. 5.0 lakh"
+    ],
+    "required_documents": [
+      "printout of MIS entry form",
+      "Fee Remission Application Form (Form No. 1)",
+      "affidavit (Annexure-I)",
+      "income certificate issued on or after 1 April 2026",
+      "ITR acknowledgement AY 2026-27",
+      "ITR form",
+      "Fee Refund Form (Form No. 2)",
+      "fee receipt",
+      "bank passbook copy or cancelled cheque"
+    ],
+    "action_items": [
+      "Enter details in MIS portal and take printout (by 16/10/2026)",
+      "Submit form and documents at B.Tech-I year desk, Academic Section (by 19/10/2026)"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "fees=[50] is the Rs.50 stamp paper for the affidavit; Rs. 5.0 lakh is an income limit, NOT a fee.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Hostel Allotment for Existing M.Tech, Ph.D, B.Tech & M.Sc Students for Session 2026-27.txt": {
+    "category": "hostel",
+    "notice_date": "2026-07-06",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-07-10"
+    ],
+    "fees": [],
+    "eligibility": [
+      "existing Ph.D, M.Tech, MBA, B.Tech II-IV, M.Sc II-V students promoted to next year"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Do online hostel room allotment via MIS portal",
+      "Pay hostel fees after paying Institute academic fees"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "M.Tech._I Year.txt": {
+    "category": "exam",
+    "notice_date": null,
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "academic_calendar",
+    "extraction_eval": false,
+    "status": "draft_unverified",
+    "notes": "Calendar table.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "MBA orientation program 2026 For Round 1 & 2 selected Students.txt": {
+    "category": "general",
+    "notice_date": null,
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-07-27"
+    ],
+    "fees": [],
+    "eligibility": [
+      "incoming MBA batch 2026-2028 (Round 1 & 2 selected)"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Attend mandatory Class Orientation Program"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Letter carries a stray date 16/07/2025 (typo in notice).",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Mess Change Notice A.Y. 2026-27.txt": {
+    "category": "hostel",
+    "notice_date": "2026-09-21",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-09-24",
+      "2026-10-01"
+    ],
+    "fees": [],
+    "eligibility": [
+      "hostel inmates B.Tech II-IV, M.Sc II-V, M.Tech I-II, Ph.D (boys hostels)"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Use MIS portal for mess change from 24th of every month, 1:00 PM onwards (first come first basis)"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Mid Sem Exam Timetable - ODD semester 2026.txt": {
+    "category": "exam",
+    "notice_date": "2026-09-08",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Norice- Health Centre - 24x7 open.txt": {
+    "category": "general",
+    "notice_date": "2025-12-02",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "health",
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Notice - Change in timing of Institute Functioning due to ganesh visarjan 2026.txt": {
+    "category": "general",
+    "notice_date": "2026-09-21",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-09-25"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [
+      "Heads of Departments to adjust practicals/tutorials/classes for the shortened working day"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Notice Charges of Temporary Accommodation for summer internshipproject works-26.txt": {
+    "category": "hostel",
+    "notice_date": "2026-05-04",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [
+      1500
+    ],
+    "eligibility": [
+      "students doing internship/project work during vacation"
+    ],
+    "required_documents": [
+      "temporary hostel admission form",
+      "internship letter signed by supervisor/faculty",
+      "permission letter from organization (if internship outside institute)"
+    ],
+    "action_items": [
+      "Fill temporary hostel admission form at Hostel Section office"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Notice-The hostel residents of UG and PG who want to stay in the hostel during the Diwali break (07-11-2026 to 14-11-2026).txt": {
+    "category": "hostel",
+    "notice_date": "2026-11-04",
+    "deadline_dates": [
+      "2026-11-06"
+    ],
+    "event_dates": [
+      "2026-11-07",
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "fees": [],
+    "eligibility": [
+      "UG and PG hostel residents staying in hostel during Diwali break"
+    ],
+    "required_documents": [
+      "Annexure-I stay form",
+      "proof copy if reason for stay is academic"
+    ],
+    "action_items": [
+      "Submit filled Annexure-I form to hostel supervisor office by 06-11-2026 6:00 PM"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Pre-Registration & Elective Choice for Upcoming Semester (Odd Sem., A.Y.2026-27).txt": {
+    "category": "exam",
+    "notice_date": "2026-05-02",
+    "deadline_dates": [
+      "2026-05-15"
+    ],
+    "event_dates": [
+      "2026-05-04"
+    ],
+    "fees": [],
+    "eligibility": [
+      "all students"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Complete pre-registration and elective choice through MIS portal"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Revised Academic Cal_2026-27.txt": {
+    "category": "exam",
+    "notice_date": null,
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "academic_calendar",
+    "extraction_eval": false,
+    "status": "draft_unverified",
+    "notes": "Calendar table.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Speaker-Notice & Form 2026.txt": {
+    "category": "general",
+    "notice_date": "2026-10-05",
+    "deadline_dates": [
+      "2026-10-09",
+      "2026-10-12"
+    ],
+    "event_dates": [
+      "2026-10-16",
+      "2026-10-20",
+      "2026-10-22"
+    ],
+    "fees": [],
+    "eligibility": [
+      "CGPA >= 7.0 (B.Tech, M.Tech, MBA, M.Sc)",
+      "no FF, XX or II grade",
+      "no disciplinary punishment",
+      "not a SAC councillor",
+      "from the GSB"
+    ],
+    "required_documents": [
+      "application form for Speaker post"
+    ],
+    "action_items": [
+      "Submit filled application form by e-mail (last date 09/10/2026 4:00 pm)"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "Top Class SC scholarship for Fresh application (AY 2026-27).txt": {
+    "category": "general",
+    "notice_date": "2026-09-10",
+    "deadline_dates": [
+      "2026-10-31",
+      "2026-11-05"
+    ],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [
+      "B.Tech-I year newly admitted SC students",
+      "family income < Rs. 800000 (OCR: 'Rs.80oo00', verify)",
+      "on Inter-Se-Merit list based on JEE Main 2026 CRL rank"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Apply on National Scholarship Portal by 31/10/2026",
+      "Submit scholarship documents at Institute scholarship section by 05/11/2026"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Student table removed for privacy. Income figure is OCR-uncertain.",
+    "source": "pdf",
+    "synthetic": false
+  },
+  "mail_20251202-Notice- Operation of Institute Dispensary 24X7-3248.txt": {
+    "category": "general",
+    "notice_date": "2025-12-02",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "health",
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260730-Sports Coaching Facilities Available at SVNIT-4034.txt": {
+    "category": "general",
+    "notice_date": "2026-07-30",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [
+      "students and staff members"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Contact the respective coach to register for coaching"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260731-Institute Closure Notice – July 31, 2026-4041.txt": {
+    "category": "general",
+    "notice_date": "2026-07-31",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-07-31"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "closure",
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260804-Blood donation camp-4065.txt": {
+    "category": "general",
+    "notice_date": "2026-08-04",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-08-15"
+    ],
+    "fees": [],
+    "eligibility": [
+      "alumni, faculty, students, staff and well-wishers"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Register through the Google form link"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260808-Academic Calendar 2026-27-4102.txt": {
+    "category": "exam",
+    "notice_date": "2026-08-08",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": "academic_calendar",
+    "extraction_eval": false,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260824-Minutes of 18th APRC Meeting held on 14.08.2026- R-4222.txt": {
+    "category": "general",
+    "notice_date": "2026-08-24",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-08-14"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [
+      "Students whose cases were deliberated should check status under the resolutions"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260828-Re_Expert Lecture by Prof. Marieke van Vugt – “Min-4254.txt": {
+    "category": "general",
+    "notice_date": "2026-08-28",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-08-29"
+    ],
+    "fees": [],
+    "eligibility": [
+      "interested students"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Attend the session as per the revised schedule (4:00pm-5:30pm)"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Revised from 10:30-12:00 to 4:00-5:30 pm (two times in the thread).",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260831-Verification of Course Registration in MIS - Reg-4274.txt": {
+    "category": "exam",
+    "notice_date": "2026-08-31",
+    "deadline_dates": [],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [
+      "Check final course registration details in MIS account",
+      "Contact MIS section if there is any discrepancy"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20260908-Regarding Classes on 12th September-4348.txt": {
+    "category": "general",
+    "notice_date": "2026-09-08",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-09-12"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [
+      "HoDs may reschedule classes on 12 September 2026"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261013-Re_Attention B.Tech. - 7th Sem. Students-Applicati-4789.txt": {
+    "category": "general",
+    "notice_date": "2026-10-13",
+    "deadline_dates": [
+      "2026-10-23"
+    ],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [
+      "B.Tech students currently in 7th semester",
+      "eligibility criteria per IIT Jodhpur M.Tech programme"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Fill the Google Form to apply for the Dual Degree Programme"
+    ],
+    "group": "dual_degree",
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261102-Fwd_ Infosys Campus Recruitment Process-532.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-02",
+    "deadline_dates": [
+      "2026-11-03"
+    ],
+    "event_dates": [],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [
+      "resume"
+    ],
+    "action_items": [
+      "Confirm offer acceptance status of students",
+      "Inform selected students"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "'by tomorrow 10.00 am' is relative to mail date 02-11-2026. LPA figures are salary, NOT fees. Tables contain candidate results.",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261103-Fwd_ NVIDIA - System Software Engineering Intern _-533.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-03",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-11-04"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [
+      "Confirm shortlisted students are in campus",
+      "Students to carry laptops for the test"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Thread covers test (earlier) and interview 'tomorrow' (=2026-11-04).",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261104-Fwd_ ION Group LDP 2027 _ Student Application-536.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-04",
+    "deadline_dates": [
+      "2026-07-15"
+    ],
+    "event_dates": [
+      "2026-07-17",
+      "2026-10-30",
+      "2026-11-05"
+    ],
+    "fees": [],
+    "eligibility": [
+      "B.Tech/B.E. in CE, IT, ECE, AI, Data Science, Mathematics & Computing",
+      "minimum 80% equivalent CGPA in 10th, 12th and B.Tech/B.E.",
+      "no active backlogs"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Apply for one role of interest",
+      "Join the WhatsApp group of shortlisted role",
+      "Join interview Teams link 10 minutes before slot"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Top of thread = Nov interview schedule; the application deadline sits in an old quoted mail (July).",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261104-Fwd_ TechM Catalyst_ Igniting the Next Wave of Dig-534.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-04",
+    "deadline_dates": [
+      "2026-10-30"
+    ],
+    "event_dates": [
+      "2026-11-06",
+      "2026-11-10"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [
+      "resume"
+    ],
+    "action_items": [
+      "Apply through MIS portal",
+      "Complete the proctored assessment"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Deadline 'till 30th October 11.00 am' is in a quoted mail.",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261105-Fwd_ Capgemini Exceller 2027_ Introducing Our Coho-539.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-05",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-11-12",
+      "2026-11-17",
+      "2026-11-20"
+    ],
+    "fees": [],
+    "eligibility": [
+      "CS/IT, Circuit and allied branches",
+      "no active backlog",
+      "cumulative academic gap up to 2 years",
+      "complete degree within stipulated duration",
+      "B.Tech only (M.Tech not eligible)"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Inform students about the assessment schedule"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Package figure (16 LPA) is not a fee.",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261105-Fwd_ IBM India Pool Campus Event - IBM Infrastruct-537.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-05",
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-10-23",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-11-05"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [
+      "Inform students to attend interviews in allotted slots",
+      "Check audio/video before interview"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Candidate table (names, CGPA) was scrubbed.",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_20261105-Fwd_ Palo Alto Networks campus hiring-538.txt": {
+    "category": "placement",
+    "notice_date": "2026-11-05",
+    "deadline_dates": [
+      "2026-11-02"
+    ],
+    "event_dates": [
+      "2026-11-11",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18"
+    ],
+    "fees": [],
+    "eligibility": [
+      "2027 pass-out",
+      "BE/B.Tech only",
+      "CGPA >= 7.0 throughout academics",
+      "no year gaps"
+    ],
+    "required_documents": [],
+    "action_items": [
+      "Apply through MIS portal"
+    ],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "'till Monday 10.00 am' in a mail of Thu 29-Oct-2026 -> Monday 2026-11-02. Stipend 1,00,000/- pm is NOT a fee.",
+    "source": "mail",
+    "synthetic": false
+  },
+  "mail_Power Shutdown Notice.txt": {
+    "category": "general",
+    "notice_date": null,
+    "deadline_dates": [],
+    "event_dates": [
+      "2026-10-02"
+    ],
+    "fees": [],
+    "eligibility": [],
+    "required_documents": [],
+    "action_items": [],
+    "group": null,
+    "extraction_eval": true,
+    "status": "draft_unverified",
+    "notes": "Mail date not in header; shutdown on 02/10/2026 10:00-14:00.",
+    "source": "mail",
+    "synthetic": false
+  }
+}

@@ -1,0 +1,8 @@
+dropped: 20261104-Fwd_ ION Group LDP 2027 _ Student Application-535.txt
+   kept: 20261104-Fwd_ ION Group LDP 2027 _ Student Application-536.txt
+dropped: 20261105-Fwd_ Capgemini Exceller 2027_ Introducing Our Coho-540.txt
+   kept: 20261105-Fwd_ Capgemini Exceller 2027_ Introducing Our Coho-539.txt
+dropped: 20260827-Fwd_ Expert Lecture by Prof. Marieke van Vugt – “M-4247.txt
+   kept: 20260828-Re_Expert Lecture by Prof. Marieke van Vugt – “Min-4254.txt
+dropped: 20261013-Attention B.Tech. - 7th Sem. Students-Application -4784.txt
+   kept: 20261013-Re_Attention B.Tech. - 7th Sem. Students-Applicati-4789.txt

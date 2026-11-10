@@ -19,24 +19,49 @@ def pdf_to_text(pdf_path: str | Path) -> str:
     Returns:
         Extracted plain text as a string.
     """
+    return extract_pdf(pdf_path)[0]
+
+
+_OCR_ENGINE = None
+
+
+def _ocr_page(page) -> str:
+    """OCR one page (RapidOCR, lazy-loaded). Lines are joined top-to-bottom."""
+    global _OCR_ENGINE
+    import numpy as np
+    if _OCR_ENGINE is None:
+        from rapidocr_onnxruntime import RapidOCR
+        _OCR_ENGINE = RapidOCR()
+    pix = page.get_pixmap(dpi=200)
+    img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, pix.n)[:, :, :3]
+    result, _ = _OCR_ENGINE(img)
+    return "\n".join(r[1] for r in result) if result else ""
+
+
+def extract_pdf(pdf_path: str | Path, ocr: bool = True) -> tuple[str, bool]:
+    """Returns (text, used_ocr). Pages with no text layer are OCR'd when ocr=True."""
     pdf_path = Path(pdf_path)
     if not pdf_path.exists():
         raise FileNotFoundError(f"PDF file not found: {pdf_path}")
 
     text_content = []
+    used_ocr = False
     try:
         doc = pymupdf.open(pdf_path)
         for page_num in range(len(doc)):
             page = doc.load_page(page_num)
             page_text = page.get_text("text")
+            if not page_text.strip() and ocr:
+                page_text = _ocr_page(page)
+                used_ocr = True
             if page_text:
                 text_content.append(page_text)
         doc.close()
     except Exception as e:
         print(f"[Error] Failed to read PDF '{pdf_path.name}': {e}")
-        return ""
+        return "", used_ocr
 
-    return "\n".join(text_content)
+    return "\n".join(text_content), used_ocr
 
 
 def process_all_pdfs(raw_dir: str | Path = None, output_dir: str | Path = None) -> list[Path]:
@@ -73,7 +98,7 @@ def process_all_pdfs(raw_dir: str | Path = None, output_dir: str | Path = None) 
     print(f"Processing {len(pdf_files)} PDF(s) from '{raw_dir}'...")
 
     for pdf_file in pdf_files:
-        extracted_text = pdf_to_text(pdf_file)
+        extracted_text, used_ocr = extract_pdf(pdf_file)
         txt_filename = pdf_file.stem + ".txt"
         txt_path = output_dir / txt_filename
 
@@ -84,7 +109,7 @@ def process_all_pdfs(raw_dir: str | Path = None, output_dir: str | Path = None) 
             f.write(extracted_text)
 
         processed_files.append(txt_path)
-        print(f"[Success] Extracted '{pdf_file.name}' -> '{txt_path.name}' ({len(extracted_text)} chars)")
+        print(f"[Success] Extracted '{pdf_file.name}' -> '{txt_path.name}' ({len(extracted_text)} chars{', OCR' if used_ocr else ''})")
 
     return processed_files
 

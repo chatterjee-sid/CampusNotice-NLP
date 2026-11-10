@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "fractions": "60/20/20 by unit, stratified by category, groups kept together",
+  "train": [
+    "B.Tech-IVth Year-7th Sem Project report submission.txt",
+    "B.Tech_M_Sc_I Year.txt",
+    "CIRCULAR- INSTITUTE CLOSURE NOTICE.txt",
+    "Class Committee UG and PG_260902_153252.txt",
+    "Eligible Branches (1).txt",
+    "End Sem Examination Timetable -ODD sem -2026_261107_141736.txt",
+    "Fee Remission Notice.txt",
+    "M.Tech._I Year.txt",
+    "MBA orientation program 2026 For Round 1 & 2 selected Students.txt",
+    "Mess Change Notice A.Y. 2026-27.txt",
+    "Norice- Health Centre - 24x7 open.txt",
+    "Notice Charges of Temporary Accommodation for summer internshipproject works-26.txt",
+    "Pre-Registration & Elective Choice for Upcoming Semester (Odd Sem., A.Y.2026-27).txt",
+    "Revised Academic Cal_2026-27.txt",
+    "mail_20251202-Notice- Operation of Institute Dispensary 24X7-3248.txt",
+    "mail_20260731-Institute Closure Notice – July 31, 2026-4041.txt",
+    "mail_20260804-Blood donation camp-4065.txt",
+    "mail_20260808-Academic Calendar 2026-27-4102.txt",
+    "mail_20260824-Minutes of 18th APRC Meeting held on 14.08.2026- R-4222.txt",
+    "mail_20260828-Re_Expert Lecture by Prof. Marieke van Vugt – “Min-4254.txt",
+    "mail_20260831-Verification of Course Registration in MIS - Reg-4274.txt",
+    "mail_20261013-Re_Attention B.Tech. - 7th Sem. Students-Applicati-4789.txt",
+    "mail_20261102-Fwd_ Infosys Campus Recruitment Process-532.txt",
+    "mail_20261103-Fwd_ NVIDIA - System Software Engineering Intern _-533.txt",
+    "mail_20261104-Fwd_ ION Group LDP 2027 _ Student Application-536.txt",
+    "mail_20261104-Fwd_ TechM Catalyst_ Igniting the Next Wave of Dig-534.txt",
+    "mail_20261105-Fwd_ Capgemini Exceller 2027_ Introducing Our Coho-539.txt"
+  ],
+  "dev": [
+    "Mid Sem Exam Timetable - ODD semester 2026.txt",
+    "Notice-The hostel residents of UG and PG who want to stay in the hostel during the Diwali break (07-11-2026 to 14-11-2026).txt",
+    "Speaker-Notice & Form 2026.txt",
+    "mail_20260730-Sports Coaching Facilities Available at SVNIT-4034.txt",
+    "mail_20260908-Regarding Classes on 12th September-4348.txt",
+    "mail_20261105-Fwd_ IBM India Pool Campus Event - IBM Infrastruct-537.txt"
+  ],
+  "test": [
+    "DOC290626-29062026200051.txt",
+    "Hostel Allotment for Existing M.Tech, Ph.D, B.Tech & M.Sc Students for Session 2026-27.txt",
+    "Notice - Change in timing of Institute Functioning due to ganesh visarjan 2026.txt",
+    "Top Class SC scholarship for Fresh application (AY 2026-27).txt",
+    "mail_20261105-Fwd_ Palo Alto Networks campus hiring-538.txt",
+    "mail_Power Shutdown Notice.txt"
+  ]
+}
