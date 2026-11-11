@@ -179,22 +179,33 @@
   "Hostel Allotment for Existing M.Tech, Ph.D, B.Tech & M.Sc Students for Session 2026-27.txt": {
     "category": "hostel",
     "notice_date": "2026-07-06",
-    "deadline_dates": [],
-    "event_dates": [
-      "2026-07-10"
+    "deadline_dates": [
+      "2026-07-13",
+      "2026-07-20"
     ],
-    "fees": [],
+    "event_dates": [
+      "2026-06-29",
+      "2026-07-10",
+      "2026-07-13",
+      "2026-07-15",
+      "2026-07-16"
+    ],
+    "fees": [
+      100
+    ],
     "eligibility": [
       "existing Ph.D, M.Tech, MBA, B.Tech II-IV, M.Sc II-V students promoted to next year"
     ],
     "required_documents": [],
     "action_items": [
       "Do online hostel room allotment via MIS portal",
-      "Pay hostel fees after paying Institute academic fees"
+      "Pay hostel fees after paying Institute academic fees",
+      "Pay semester fee through MIS between 29 June and 13 July 2026 (fine Rs. 100/day from 14 to 20 July)"
     ],
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
+    "notes": "PDF holds two notices: hostel allotment (6 Jul 2026, schedule 10/13/15/16 Jul) and a 'Notice for Fee payment' dated 25/06/2026 (fee window 29 Jun-13 Jul, fine Rs.100/day 14-20 Jul). Corrected after first draft missed the second notice.",
     "source": "pdf",
     "synthetic": false
   },
@@ -435,6 +446,7 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
+    "notes": "Reviewed (user): 2026-10-22 is correct: 'Date of Election : October 22, 2026 (Thursday) @ 12.30 pm in Hostel Conf. Room'. OCR writes October as '0ctober' (zero for O).",
     "source": "pdf",
     "synthetic": false
   },
@@ -499,6 +511,7 @@
     "synthetic": false
   },
   "mail_20260731-Institute Closure Notice – July 31, 2026-4041.txt": {
+    "notes": "Reviewed (user): the event date comes from the body ('the Institute will remain closed today, July 31, 2026, from 2:00 PM onwards'), NOT from the mail header Date (31-07-2026, 13:18), which is the send time and is only for resolving relative words like 'today'.",
     "category": "general",
     "notice_date": "2026-07-31",
     "deadline_dates": [],
@@ -655,11 +668,17 @@
     "category": "placement",
     "notice_date": "2026-11-02",
     "deadline_dates": [
+      "2026-08-19",
+      "2026-08-24",
       "2026-11-03"
     ],
-    "event_dates": [],
+    "event_dates": [
+      "2026-08-27"
+    ],
     "fees": [],
-    "eligibility": [],
+    "eligibility": [
+      "batch of 2027"
+    ],
     "required_documents": [
       "resume"
     ],
@@ -670,15 +689,19 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
-    "notes": "'by tomorrow 10.00 am' is relative to mail date 02-11-2026. LPA figures are salary, NOT fees. Tables contain candidate results.",
+    "notes": "'by tomorrow 10.00 am' is relative to mail date 02-11-2026. LPA figures are salary, NOT fees. Tables contain candidate results. Added after extraction error analysis (verified in the notice text): Quoted older messages: 'complete the registration by EOD today' (19 Aug), 'Update me by 4.00 pm today' (24 Aug), 'batch of 2027 scheduled for 27th August 2026'.",
     "source": "mail",
     "synthetic": false
   },
   "mail_20261103-Fwd_ NVIDIA - System Software Engineering Intern _-533.txt": {
     "category": "placement",
     "notice_date": "2026-11-03",
-    "deadline_dates": [],
+    "deadline_dates": [
+      "2026-10-26",
+      "2026-10-29"
+    ],
     "event_dates": [
+      "2026-10-30",
       "2026-11-04"
     ],
     "fees": [],
@@ -691,7 +714,7 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
-    "notes": "Thread covers test (earlier) and interview 'tomorrow' (=2026-11-04).",
+    "notes": "Thread covers test (earlier) and interview 'tomorrow' (=2026-11-04). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'apply through the MIS portal till Monday 10.00 am' (msg of Fri 23 Oct), 'let us know by 6:30 PM today' (29 Oct), 'Online Assessment Date 30th October 9:00 AM'. 'Internship Stipend INR 1,00,000 per month' is NOT a fee.",
     "source": "mail",
     "synthetic": false
   },
@@ -699,7 +722,9 @@
     "category": "placement",
     "notice_date": "2026-11-04",
     "deadline_dates": [
-      "2026-07-15"
+      "2026-07-15",
+      "2026-10-28",
+      "2026-11-04"
     ],
     "event_dates": [
       "2026-07-17",
@@ -710,7 +735,8 @@
     "eligibility": [
       "B.Tech/B.E. in CE, IT, ECE, AI, Data Science, Mathematics & Computing",
       "minimum 80% equivalent CGPA in 10th, 12th and B.Tech/B.E.",
-      "no active backlogs"
+      "no active backlogs",
+      "Class of 2027"
     ],
     "required_documents": [],
     "action_items": [
@@ -721,7 +747,7 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
-    "notes": "Top of thread = Nov interview schedule; the application deadline sits in an old quoted mail (July).",
+    "notes": "Top of thread = Nov interview schedule; the application deadline sits in an old quoted mail (July). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'share the availability of the students by today 5.00 pm' (28 Oct), 'share the names of only available students by 12.15 pm today' (4 Nov). The 29 Oct 'meeting links soon today' is not an event.",
     "source": "mail",
     "synthetic": false
   },
@@ -729,14 +755,17 @@
     "category": "placement",
     "notice_date": "2026-11-04",
     "deadline_dates": [
-      "2026-10-30"
+      "2026-10-30",
+      "2026-10-31"
     ],
     "event_dates": [
       "2026-11-06",
       "2026-11-10"
     ],
     "fees": [],
-    "eligibility": [],
+    "eligibility": [
+      "minimum 50% marks in X, XII, UG and PG"
+    ],
     "required_documents": [
       "resume"
     ],
@@ -747,7 +776,7 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
-    "notes": "Deadline 'till 30th October 11.00 am' is in a quoted mail.",
+    "notes": "Deadline 'till 30th October 11.00 am' is in a quoted mail. Reviewed (user): 2026-11-06 is correct, from 'a *Mock Assessment* has been scheduled for all eligible candidates on *6*^*th* *November, 2026.*' (mail markup wraps the day, suffix and month). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'We have to share resumes by 10 am tomorrow' (msg of 30 Oct); 'Academic Marks: 50% & above marks in X, XII, UG & PG'.",
     "source": "mail",
     "synthetic": false
   },
@@ -782,8 +811,11 @@
   "mail_20261105-Fwd_ IBM India Pool Campus Event - IBM Infrastruct-537.txt": {
     "category": "placement",
     "notice_date": "2026-11-05",
-    "deadline_dates": [],
+    "deadline_dates": [
+      "2026-10-21"
+    ],
     "event_dates": [
+      "2026-10-21",
       "2026-10-23",
       "2026-10-28",
       "2026-10-29",
@@ -791,7 +823,11 @@
       "2026-11-05"
     ],
     "fees": [],
-    "eligibility": [],
+    "eligibility": [
+      "minimum 7.0 CGPA",
+      "No active backlog",
+      "2027 batch"
+    ],
     "required_documents": [],
     "action_items": [
       "Inform students to attend interviews in allotted slots",
@@ -800,7 +836,7 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
-    "notes": "Candidate table (names, CGPA) was scrubbed.",
+    "notes": "Candidate table (names, CGPA) was scrubbed. Reviewed (user): 2026-10-28/29/30 come from 'interviews scheduled for *28^th, 29^th & 30^th October 2026*' (a list of days sharing one month). Confirmed (user): 2026-11-05 is an event too ('interviews scheduled for *5^th November 2026*'). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'pls share your details till 2.00 pm today' and 'today's assessment process at 6.00 pm' (21 Oct); '70%/7.0 CGPA', 'No Active Backlog', 'Campus requirement for the 2027 Batch'. Stipend INR 50000/30000 per month are NOT fees.",
     "source": "mail",
     "synthetic": false
   },
@@ -830,7 +866,7 @@
     "group": null,
     "extraction_eval": true,
     "status": "draft_unverified",
-    "notes": "'till Monday 10.00 am' in a mail of Thu 29-Oct-2026 -> Monday 2026-11-02. Stipend 1,00,000/- pm is NOT a fee.",
+    "notes": "'till Monday 10.00 am' in a mail of Thu 29-Oct-2026 -> Monday 2026-11-02. Stipend 1,00,000/- pm is NOT a fee. Reviewed (user): 2026-11-16, -17 and -18 all come from 'Two Technical Interview Rounds - 16 to 18th November (virtual)': a range expands to every day in it.",
     "source": "mail",
     "synthetic": false
   },

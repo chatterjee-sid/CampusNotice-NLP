@@ -55,8 +55,12 @@ def scrub_pii(text: str) -> str:
     text = re.sub(r'<?(mailto|tel):[^>\s]*>?', '', text)
     text = re.sub(r'[\w.+-]+@[\w-]+(\.[\w-]+)+', '[EMAIL]', text)
     text = re.sub(r'(?<!\d)(?:\+?91[- ]?0?|0|1)?[6-9]\d{9}(?!\d)', '[PHONE]', text)
-    text = re.sub(r"(?is)On (?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[^\n]*(?:\n[^\n]*){0,2}?wrote:",
-                  "On [DATE], [NAME] wrote:", text)
+    # Quoted-reply attribution "On Thu, Oct 29, 2026 at 5:09 PM <name> wrote:": the name is masked but the date and
+    # time are KEPT, because they are the send time of the quoted message (needed to resolve "tomorrow", "Monday").
+    text = re.sub(r"(?is)\bOn ((?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[^\n]*?\d{1,2}:\d{2}(?:\s*[AP]M)?)[^\n]*(?:\n[^\n]*){0,4}?wrote:",
+                  r"On \1, [NAME] wrote:", text)
+    text = re.sub(r"(?is)\bOn (?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[^\n]*(?:\n[^\n]*){0,4}?wrote:",
+                  "On [DATE], [NAME] wrote:", text)       # fallback when no time is present
     text = re.sub(r"(?im)^([ \t>]*(?:thanks\s*(?:&|and)\s*regards|with warm regards|with regards|best regards|regards|best),?[ \t]*\n)"
                   r"[ \t>]*[A-Z][A-Za-z.' ]{2,40}[ \t]*$", r"\1[NAME]", text)
     return _drop_recipient_lists(text)

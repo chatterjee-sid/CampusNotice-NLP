@@ -7,3 +7,5 @@ data/texts
 data/cdc_mails/
 data/other_mails/
 data/newfound/
+# review sheet quotes lines from the (scrubbed) notice texts
+data/LABEL_REVIEW.md
