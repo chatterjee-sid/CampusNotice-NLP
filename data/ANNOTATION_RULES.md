@@ -1,7 +1,7 @@
 # Annotation Rules (v1)
 
 Labels live in `labels.json`, keyed by the `.txt` file name in `data/texts/`.
-All current labels are **drafts** (`"status": "draft_unverified"`) until a human reviews them.
+Labels were reviewed by the user for category, dates and fees on 2026-11-11 (`"status": "user_reviewed"`); free-text fields were not checked line by line.
 
 ## Category (exactly one)
 | Label | Use for |

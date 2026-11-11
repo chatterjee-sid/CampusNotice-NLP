@@ -376,3 +376,26 @@ def test_analyze_notice_with_a_classifier_and_a_mail():
 def test_empty_text_does_not_crash():
     r = analyze_notice("")
     assert r["n_items"] == 0 and r["notice_dates"] == []
+
+
+# ---- hard cases found on Day 6 ----
+def test_annual_fee_is_a_fee_but_annual_income_is_not():
+    assert [f["value"] for f in find_fees("The annual fee is Rs. 150000.")] == [150000]
+    assert find_fees("Annual family income should be below Rs. 800000.") == []
+
+
+def test_cgpa_and_above_phrasing():
+    assert canonical_conditions("Students with 6.5 and above CGPA may apply.") == {"cgpa>=6.5"}
+    assert canonical_conditions("Students with 7 or above CGPA may apply.") == {"cgpa>=7"}
+
+
+def test_extended_deadline_sentence_is_flagged_for_review():
+    res = analyze_notice("The deadline is extended from 10/11/2026 to 15/11/2026.")
+    items = res["fields"]["deadline_dates"] + res["fields"]["event_dates"]
+    assert len(items) == 2
+    assert all(i["status"] == "needs_review" for i in items)
+
+
+def test_plain_deadline_is_not_flagged():
+    res = analyze_notice("Last date to apply is 15/11/2026.")
+    assert res["fields"]["deadline_dates"][0]["status"] == "ok"

@@ -470,6 +470,8 @@ def find_dates(text: str) -> list[dict]:
             conf = min(conf, 0.4)
         if it["relative"]:
             conf = min(conf, 0.8)
+        if _CHANGED.search(sent.get("text", "")):      # 'extended from X to Y': which date is the live one? ask a human
+            conf = min(conf, 0.55)
         status = "ok" if conf >= 0.6 else "needs_review"
         results.append({
             "field": field, "value": it["iso"], "type": kind["type"],
@@ -478,6 +480,9 @@ def find_dates(text: str) -> list[dict]:
             "relative": it["relative"], "year_assumed": it["assumed"], "conflict": kind["conflict"],
         })
     return _dedupe(results)
+
+
+_CHANGED = re.compile(r"\b(?:extended|postponed|rescheduled|preponed|deferred)\b", re.I)
 
 
 def _dedupe(items: list[dict]) -> list[dict]:
@@ -495,7 +500,7 @@ def _dedupe(items: list[dict]) -> list[dict]:
 # =====================================================================================================
 _FEE = re.compile(r"(?:(?<![a-z])(?:rs|inr)\b\.?|₹|\brupees?\b)\s*[:\-]?\s*(?P<a>\d[\d,]*(?:\.\d+)?)(?:\s*/-|(?![\w]))"
                   r"|(?<![\w,.])(?P<b>\d[\d,]*)(?:\s*/-|\s*rupees?\b)")
-_NOT_FEE_BEFORE = re.compile(r"ctc|stipend|salary|package|income|compensation|bonus|annual|per\s+annum|lpa")
+_NOT_FEE_BEFORE = re.compile(r"ctc|stipend|salary|package|income|compensation|bonus|annual\s+(?:family\s+)?(?:income|salary|package|ctc)|per\s+annum|lpa")
 _NOT_FEE_AFTER = re.compile(r"^\s*(?:lpa|lakhs?|lacs?|crores?|cr\b|per\s+annum|p\.?a\b)|bonus|ctc|stipend|joining|fixed")
 _FEE_WORD = re.compile(r"\bfees?\b|fine|charges?|payment|\bpay\b|amount|cost|deposit|penalty|refund|per\s+(?:day|student|semester)")
 
@@ -611,7 +616,7 @@ _OP_NUM = r"(?P<v>\d{1,2}(?:\.\d+)?)"
 _CGPA_CONN = (r"(?:(?:of|is|should\s+be|must\s+be|at\s+least|minimum|min\.?|above|below|under|over|less\s+than|"
               r"more\s+than|greater\s+than|not\s+less\s+than|not\s+more\s+than|>=|=>|>|<|=|≥|:)\s*)*")
 _CGPA_A = re.compile(r"(?:cgpa|c\.g\.p\.a\.?|\bgpa)\s*" + _CGPA_CONN + _OP_NUM + r"(?![\d.]*\s*%)")
-_CGPA_B = re.compile(_OP_NUM + r"(?![\d.]*\s*%)\s*(?:\+\s*)?(?:cgpa|gpa)")
+_CGPA_B = re.compile(_OP_NUM + r"(?![\d.]*\s*%)\s*(?:\+\s*|(?:and|or)\s+(?:above|higher|more)\s*)?(?:cgpa|gpa)")
 _PERCENT = re.compile(r"(?P<pre>(?:minimum|min\.?|at\s+least|not\s+less\s+than|above|more\s+than|atleast)\s*(?:of\s*)?)?"
                       r"(?P<v>\d{2,3}(?:\.\d+)?)\s*%")
 _BACKLOG = re.compile(r"(?:\bno\b|without|zero|\bnil\b|not\s+have\s+any|should\s+not\s+have\s+any)\s+(?:any\s+)?(?:active\s+|current\s+|pending\s+|standing\s+)?(?:backlogs?|arrears?)")

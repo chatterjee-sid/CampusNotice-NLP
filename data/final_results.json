@@ -1,0 +1,284 @@
+{
+  "frozen_settings": {
+    "alpha": 0.5,
+    "remove_stop": true,
+    "stem_words": false,
+    "review_threshold": 0.6
+  },
+  "test_notices": [
+    "DOC290626-29062026200051.txt",
+    "Hostel Allotment for Existing M.Tech, Ph.D, B.Tech & M.Sc Students for Session 2026-27.txt",
+    "Notice - Change in timing of Institute Functioning due to ganesh visarjan 2026.txt",
+    "Top Class SC scholarship for Fresh application (AY 2026-27).txt",
+    "mail_20261105-Fwd_ Palo Alto Networks campus hiring-538.txt",
+    "mail_Power Shutdown Notice.txt"
+  ],
+  "n_test": 6,
+  "n_test_extraction_scored": 6,
+  "train_for_classifier": 33,
+  "classification": {
+    "labels": [
+      "exam",
+      "general",
+      "hostel",
+      "placement"
+    ],
+    "accuracy": 1.0,
+    "per_class": {
+      "exam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "general": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "hostel": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "placement": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      }
+    },
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion": {
+      "exam": {
+        "exam": 1,
+        "general": 0,
+        "hostel": 0,
+        "placement": 0
+      },
+      "general": {
+        "exam": 0,
+        "general": 3,
+        "hostel": 0,
+        "placement": 0
+      },
+      "hostel": {
+        "exam": 0,
+        "general": 0,
+        "hostel": 1,
+        "placement": 0
+      },
+      "placement": {
+        "exam": 0,
+        "general": 0,
+        "hostel": 0,
+        "placement": 1
+      }
+    },
+    "majority_class": "general",
+    "majority_accuracy": 0.5,
+    "per_notice": [
+      {
+        "notice": "DOC290626-29062026200051.txt",
+        "true": "exam",
+        "pred": "exam"
+      },
+      {
+        "notice": "Hostel Allotment for Existing M.Tech, Ph.D, B.Tech & M.Sc Students for Session 2026-27.txt",
+        "true": "hostel",
+        "pred": "hostel"
+      },
+      {
+        "notice": "Notice - Change in timing of Institute Functioning due to ganesh visarjan 2026.txt",
+        "true": "general",
+        "pred": "general"
+      },
+      {
+        "notice": "Top Class SC scholarship for Fresh application (AY 2026-27).txt",
+        "true": "general",
+        "pred": "general"
+      },
+      {
+        "notice": "mail_20261105-Fwd_ Palo Alto Networks campus hiring-538.txt",
+        "true": "placement",
+        "pred": "placement"
+      },
+      {
+        "notice": "mail_Power Shutdown Notice.txt",
+        "true": "general",
+        "pred": "general"
+      }
+    ]
+  },
+  "extraction_test": {
+    "per_field": {
+      "deadline_dates": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.6666666666666666,
+        "recall": 0.3333333333333333,
+        "f1": 0.4444444444444444
+      },
+      "event_dates": {
+        "tp": 11,
+        "fp": 6,
+        "fn": 0,
+        "precision": 0.6470588235294118,
+        "recall": 1.0,
+        "f1": 0.7857142857142857
+      },
+      "fees": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "eligibility": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "required_documents": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0
+      },
+      "action_items": {
+        "tp": 5,
+        "fp": 7,
+        "fn": 2,
+        "precision": 0.4166666666666667,
+        "recall": 0.7142857142857143,
+        "f1": 0.5263157894736842
+      }
+    },
+    "micro": {
+      "tp": 23,
+      "fp": 15,
+      "fn": 6,
+      "precision": 0.6052631578947368,
+      "recall": 0.7931034482758621,
+      "f1": 0.6865671641791045
+    },
+    "macro_f1": 0.6260790866054023,
+    "review": {
+      "correct": 23,
+      "wrong": 15,
+      "flagged_wrong": 6,
+      "silent_errors": 9,
+      "flagged_correct": 9,
+      "coverage": 0.4,
+      "false_alarm_rate": 0.391304347826087
+    },
+    "review_precise": {
+      "correct": 18,
+      "wrong": 8,
+      "flagged_wrong": 6,
+      "silent_errors": 2,
+      "flagged_correct": 9,
+      "coverage": 0.75,
+      "false_alarm_rate": 0.5
+    }
+  },
+  "extraction_devset": {
+    "per_field": {
+      "deadline_dates": {
+        "tp": 19,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "event_dates": {
+        "tp": 45,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.9574468085106383,
+        "recall": 1.0,
+        "f1": 0.9782608695652174
+      },
+      "fees": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "eligibility": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "required_documents": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.8333333333333334,
+        "recall": 0.9375,
+        "f1": 0.8823529411764706
+      },
+      "action_items": {
+        "tp": 24,
+        "fp": 50,
+        "fn": 8,
+        "precision": 0.32432432432432434,
+        "recall": 0.75,
+        "f1": 0.4528301886792453
+      }
+    },
+    "micro": {
+      "tp": 117,
+      "fp": 55,
+      "fn": 9,
+      "precision": 0.6802325581395349,
+      "recall": 0.9285714285714286,
+      "f1": 0.785234899328859
+    },
+    "macro_f1": 0.8855739999034888,
+    "n": 27
+  },
+  "search": {
+    "boolean": {
+      "k": 3,
+      "n_queries": 15,
+      "n_skipped": 0,
+      "p@3": 0.2222222222222222,
+      "recall@3": 0.40555555555555556,
+      "mrr": 0.6333333333333333
+    },
+    "count": {
+      "k": 3,
+      "n_queries": 15,
+      "n_skipped": 0,
+      "p@3": 0.5111111111111111,
+      "recall@3": 0.7355555555555555,
+      "mrr": 0.8333333333333334
+    },
+    "tfidf": {
+      "k": 3,
+      "n_queries": 15,
+      "n_skipped": 0,
+      "p@3": 0.6666666666666666,
+      "recall@3": 0.8822222222222221,
+      "mrr": 0.9666666666666667
+    }
+  }
+}

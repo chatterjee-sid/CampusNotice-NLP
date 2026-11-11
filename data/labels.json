@@ -19,10 +19,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Notice date OCR'd as 01/1o/2026; read as 01/10/2026.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "B.Tech_M_Sc_I Year.txt": {
     "category": "exam",
@@ -35,10 +36,11 @@
     "action_items": [],
     "group": "academic_calendar",
     "extraction_eval": false,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Calendar table; only category evaluated.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "CIRCULAR- INSTITUTE CLOSURE NOTICE.txt": {
     "category": "general",
@@ -53,9 +55,10 @@
     "action_items": [],
     "group": "closure",
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Class Committee UG and PG_260902_153252.txt": {
     "category": "general",
@@ -68,10 +71,11 @@
     "action_items": [],
     "group": null,
     "extraction_eval": false,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Committee member list; no deadlines/fees.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "DOC290626-29062026200051.txt": {
     "category": "exam",
@@ -93,9 +97,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Eligible Branches (1).txt": {
     "category": "general",
@@ -111,10 +116,11 @@
     "action_items": [],
     "group": "dual_degree",
     "extraction_eval": false,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Attachment to the dual-degree mail; branch table not evaluated.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "End Sem Examination Timetable -ODD sem -2026_261107_141736.txt": {
     "category": "exam",
@@ -134,9 +140,10 @@
     "action_items": [],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Fee Remission Notice.txt": {
     "category": "general",
@@ -171,10 +178,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "fees=[50] is the Rs.50 stamp paper for the affidavit; Rs. 5.0 lakh is an income limit, NOT a fee.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Hostel Allotment for Existing M.Tech, Ph.D, B.Tech & M.Sc Students for Session 2026-27.txt": {
     "category": "hostel",
@@ -204,10 +212,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "PDF holds two notices: hostel allotment (6 Jul 2026, schedule 10/13/15/16 Jul) and a 'Notice for Fee payment' dated 25/06/2026 (fee window 29 Jun-13 Jul, fine Rs.100/day 14-20 Jul). Corrected after first draft missed the second notice.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "M.Tech._I Year.txt": {
     "category": "exam",
@@ -220,10 +229,11 @@
     "action_items": [],
     "group": "academic_calendar",
     "extraction_eval": false,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Calendar table.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "MBA orientation program 2026 For Round 1 & 2 selected Students.txt": {
     "category": "general",
@@ -242,10 +252,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Letter carries a stray date 16/07/2025 (typo in notice).",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Mess Change Notice A.Y. 2026-27.txt": {
     "category": "hostel",
@@ -265,9 +276,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Mid Sem Exam Timetable - ODD semester 2026.txt": {
     "category": "exam",
@@ -287,9 +299,10 @@
     "action_items": [],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Norice- Health Centre - 24x7 open.txt": {
     "category": "general",
@@ -302,9 +315,10 @@
     "action_items": [],
     "group": "health",
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Notice - Change in timing of Institute Functioning due to ganesh visarjan 2026.txt": {
     "category": "general",
@@ -321,9 +335,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Notice Charges of Temporary Accommodation for summer internshipproject works-26.txt": {
     "category": "hostel",
@@ -346,9 +361,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Notice-The hostel residents of UG and PG who want to stay in the hostel during the Diwali break (07-11-2026 to 14-11-2026).txt": {
     "category": "hostel",
@@ -374,9 +390,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Pre-Registration & Elective Choice for Upcoming Semester (Odd Sem., A.Y.2026-27).txt": {
     "category": "exam",
@@ -397,9 +414,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Revised Academic Cal_2026-27.txt": {
     "category": "exam",
@@ -412,10 +430,11 @@
     "action_items": [],
     "group": "academic_calendar",
     "extraction_eval": false,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Calendar table.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Speaker-Notice & Form 2026.txt": {
     "category": "general",
@@ -445,10 +464,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Reviewed (user): 2026-10-22 is correct: 'Date of Election : October 22, 2026 (Thursday) @ 12.30 pm in Hostel Conf. Room'. OCR writes October as '0ctober' (zero for O).",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "Top Class SC scholarship for Fresh application (AY 2026-27).txt": {
     "category": "general",
@@ -471,10 +491,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Student table removed for privacy. Income figure is OCR-uncertain.",
     "source": "pdf",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20251202-Notice- Operation of Institute Dispensary 24X7-3248.txt": {
     "category": "general",
@@ -487,9 +508,10 @@
     "action_items": [],
     "group": "health",
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260730-Sports Coaching Facilities Available at SVNIT-4034.txt": {
     "category": "general",
@@ -506,9 +528,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260731-Institute Closure Notice – July 31, 2026-4041.txt": {
     "notes": "Reviewed (user): the event date comes from the body ('the Institute will remain closed today, July 31, 2026, from 2:00 PM onwards'), NOT from the mail header Date (31-07-2026, 13:18), which is the send time and is only for resolving relative words like 'today'.",
@@ -524,9 +547,10 @@
     "action_items": [],
     "group": "closure",
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260804-Blood donation camp-4065.txt": {
     "category": "general",
@@ -545,9 +569,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260808-Academic Calendar 2026-27-4102.txt": {
     "category": "exam",
@@ -560,9 +585,10 @@
     "action_items": [],
     "group": "academic_calendar",
     "extraction_eval": false,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260824-Minutes of 18th APRC Meeting held on 14.08.2026- R-4222.txt": {
     "category": "general",
@@ -579,9 +605,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260828-Re_Expert Lecture by Prof. Marieke van Vugt – “Min-4254.txt": {
     "category": "general",
@@ -600,10 +627,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Revised from 10:30-12:00 to 4:00-5:30 pm (two times in the thread).",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260831-Verification of Course Registration in MIS - Reg-4274.txt": {
     "category": "exam",
@@ -619,9 +647,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20260908-Regarding Classes on 12th September-4348.txt": {
     "category": "general",
@@ -638,9 +667,10 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261013-Re_Attention B.Tech. - 7th Sem. Students-Applicati-4789.txt": {
     "category": "general",
@@ -660,9 +690,10 @@
     ],
     "group": "dual_degree",
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261102-Fwd_ Infosys Campus Recruitment Process-532.txt": {
     "category": "placement",
@@ -688,10 +719,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "'by tomorrow 10.00 am' is relative to mail date 02-11-2026. LPA figures are salary, NOT fees. Tables contain candidate results. Added after extraction error analysis (verified in the notice text): Quoted older messages: 'complete the registration by EOD today' (19 Aug), 'Update me by 4.00 pm today' (24 Aug), 'batch of 2027 scheduled for 27th August 2026'.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261103-Fwd_ NVIDIA - System Software Engineering Intern _-533.txt": {
     "category": "placement",
@@ -713,10 +745,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Thread covers test (earlier) and interview 'tomorrow' (=2026-11-04). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'apply through the MIS portal till Monday 10.00 am' (msg of Fri 23 Oct), 'let us know by 6:30 PM today' (29 Oct), 'Online Assessment Date 30th October 9:00 AM'. 'Internship Stipend INR 1,00,000 per month' is NOT a fee.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261104-Fwd_ ION Group LDP 2027 _ Student Application-536.txt": {
     "category": "placement",
@@ -746,10 +779,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Top of thread = Nov interview schedule; the application deadline sits in an old quoted mail (July). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'share the availability of the students by today 5.00 pm' (28 Oct), 'share the names of only available students by 12.15 pm today' (4 Nov). The 29 Oct 'meeting links soon today' is not an event.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261104-Fwd_ TechM Catalyst_ Igniting the Next Wave of Dig-534.txt": {
     "category": "placement",
@@ -775,10 +809,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Deadline 'till 30th October 11.00 am' is in a quoted mail. Reviewed (user): 2026-11-06 is correct, from 'a *Mock Assessment* has been scheduled for all eligible candidates on *6*^*th* *November, 2026.*' (mail markup wraps the day, suffix and month). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'We have to share resumes by 10 am tomorrow' (msg of 30 Oct); 'Academic Marks: 50% & above marks in X, XII, UG & PG'.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261105-Fwd_ Capgemini Exceller 2027_ Introducing Our Coho-539.txt": {
     "category": "placement",
@@ -803,10 +838,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Package figure (16 LPA) is not a fee.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261105-Fwd_ IBM India Pool Campus Event - IBM Infrastruct-537.txt": {
     "category": "placement",
@@ -835,10 +871,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Candidate table (names, CGPA) was scrubbed. Reviewed (user): 2026-10-28/29/30 come from 'interviews scheduled for *28^th, 29^th & 30^th October 2026*' (a list of days sharing one month). Confirmed (user): 2026-11-05 is an event too ('interviews scheduled for *5^th November 2026*'). Added after extraction error analysis (verified in the notice text): Quoted older messages: 'pls share your details till 2.00 pm today' and 'today's assessment process at 6.00 pm' (21 Oct); '70%/7.0 CGPA', 'No Active Backlog', 'Campus requirement for the 2027 Batch'. Stipend INR 50000/30000 per month are NOT fees.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_20261105-Fwd_ Palo Alto Networks campus hiring-538.txt": {
     "category": "placement",
@@ -865,10 +902,11 @@
     ],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "'till Monday 10.00 am' in a mail of Thu 29-Oct-2026 -> Monday 2026-11-02. Stipend 1,00,000/- pm is NOT a fee. Reviewed (user): 2026-11-16, -17 and -18 all come from 'Two Technical Interview Rounds - 16 to 18th November (virtual)': a range expands to every day in it.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   },
   "mail_Power Shutdown Notice.txt": {
     "category": "general",
@@ -883,9 +921,10 @@
     "action_items": [],
     "group": null,
     "extraction_eval": true,
-    "status": "draft_unverified",
+    "status": "user_reviewed",
     "notes": "Mail date not in header; shutdown on 02/10/2026 10:00-14:00.",
     "source": "mail",
-    "synthetic": false
+    "synthetic": false,
+    "review_scope": "category, dates, fees"
   }
 }
