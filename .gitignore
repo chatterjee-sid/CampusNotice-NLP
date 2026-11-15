@@ -1,3 +1,11 @@
 venv/
+__pycache__/
+.pytest_cache/
 data/raw_pdfs
 data/texts
+# original mails/notices contain real student names, emails and phone numbers: never commit
+data/cdc_mails/
+data/other_mails/
+data/newfound/
+# review sheet quotes lines from the (scrubbed) notice texts
+data/LABEL_REVIEW.md
