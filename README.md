@@ -20,7 +20,7 @@ Dataset: 39 notices (21 PDFs, 18 mails), 4 categories, one annotator. Fixed spli
 | Extraction on test (micro P / R / F1) | 0.61 / 0.79 / 0.69; deadlines F1 only **0.44** (dev set 1.00 was optimistic); fees and eligibility 1.00 on 2 and 3 items |
 | Needs-review on test | flagged 6 of 8 wrong values, and 9 of 18 correct ones |
 
-See `KNOWN_LIMITATIONS.md` for what fails and why (OCR, silent misses, tiny data). Charts: `results/`. Raw numbers: `data/final_results.json`.
+Charts: `results/`. Raw numbers: `data/final_results.json`.
 
 ## Setup
 Python 3.12.
